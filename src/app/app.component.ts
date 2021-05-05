@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'sandbox-app',
+  template: `
+    <sandbox-layout>
+      <router-outlet></router-outlet>
+    </sandbox-layout>    
+  `,
 })
 export class AppComponent {
-  title = 'sandbox';
+  
 }
