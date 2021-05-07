@@ -1,0 +1,19 @@
+$main-color: rgb(167, 195, 247);
+$white: rgb(233, 241, 240);
+
+#footer {
+  position: fixed;
+  left: 0;
+  font-size: 20px;
+  bottom: 0;
+  width: 100%;
+  background-color: $main-color;
+  color: $white;
+  text-align: center;
+  a {
+    margin: 10px;
+  &:hover {
+      color: $white;
+  }
+}
+}

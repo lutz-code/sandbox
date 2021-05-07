@@ -1,0 +1,23 @@
+$main-color: rgb(167, 195, 247);
+$white: rgb(233, 241, 240);
+
+header {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: $main-color;
+    width: 100%;
+
+    #topnav a {
+        float: left;
+        text-align: center;
+        font-size: 25px;
+        padding: 14px 16px;
+        color: black;
+        
+        &:hover {
+            color: $main-color;
+            background-color: $white;
+        }
+}
+}
