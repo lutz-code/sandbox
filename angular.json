@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/app/theme/styles/main.scss"
             ],
             "scripts": []
           },
@@ -91,7 +91,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/app/theme/styles/main.scss"
             ],
             "scripts": []
           }
@@ -126,7 +126,7 @@
   },
   "schematics": {
     "@schematics/angular:component": {
-      "styleext": "sass"
+      "styleext": "scss"
     }
   },
   "defaultProject": "sandbox"
