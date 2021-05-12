@@ -1,29 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
   selector: 'sandbox-header',
-  template: `<button (click)="homeClick()">Home</button>`,
-  styleUrls: ['./header.component.css']
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { 
+    
+  }
 
   ngOnInit(): void {
   }
 
-  homeClick() {
-    console.log('you clicked home')
-  }
-  picsClick() {
-    console.log('you clicked pics')
-  }
-  placesClick() {
-    console.log('you clicked places')
-  }
-  aboutClick() {
-    console.log('you clicked about')
-  }
+  navigateTo(path: string) {
+    this._router.navigateByUrl(path)
+  } 
 }
-

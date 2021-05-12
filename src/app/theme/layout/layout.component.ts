@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'sandbox-layout',
-  styleUrls: ['./layout.component.css'],
+  styleUrls: ['./layout.component.scss'],
   template: `
     <div class="layout">
       <sandbox-header></sandbox-header>

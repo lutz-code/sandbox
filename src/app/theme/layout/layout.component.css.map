@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,MAAM;EACjB,eAAe,EAAE,UAAU;EAC3B,WAAW,EAAE,OAAO;EACpB,aAAa,EAAE,OAAO;EACtB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "layout.component.scss",
+        "../styles/main.scss"
+    ],
+    "names": [],
+    "file": "layout.component.css"
+}
