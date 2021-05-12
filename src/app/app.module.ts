@@ -10,7 +10,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { PicsComponent } from './pages/pics/pics.component';
 import { PlacesComponent } from './pages/places/places.component';
 import { AboutComponent } from './pages/about/about.component';
-import { BackupComponent } from './pages/backup/backup.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { BackupComponent } from './pages/backup/backup.component';
     PicsComponent,
     PlacesComponent,
     AboutComponent,
-    BackupComponent,
   ],
   imports: [
     BrowserModule,
