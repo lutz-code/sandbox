@@ -1,10 +1,47 @@
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <header>
-    <div id="topnav">
-        <a (click)="navigateTo('/')">Home</a>
-        <a (click)="navigateTo('/pics')">Pics</a>
-        <a (click)="navigateTo('/places')">Places</a>
-        <a (click)="navigateTo('/about')">About</a>
+    <div class="row-fluid" class="navbar">
+        <div id="topnav" class="header-container-wrapper">
+            <div href="#" class="nav-image">
+                <img  id="image" src="Salted.jpg">
+            </div>
+                <a (click)="navigateTo('/places')">CONTACT</a>
+                <a (click)="navigateTo('/places')">INSIGHTS</a>
+                <a (click)="navigateTo('/about')">ABOUT</a>
+                <div class="dropdown">
+
+                    <a (click)="navigateTo('/pics')" class="dropbtn">SOLUTIONS</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-box">
+                            <a><h4 href="#">PROJECT ENGAGEMENT</h4><br>
+                                        <p>Bringing our interdisciplinary</p>
+                                        <p>team to bear on everything from</p>
+                                        <p>website redesigns to CRM migrations.</p>
+                                        <div href="#" class="learn-more">LEARN MORE</div>
+                            </a>
+                        </div>
+                        <div class="dropdown-box">
+                            <a><h4 href="#">TACTICAL SUPPORT</h4><br>
+                                        <p>Targeted, on-demand expertise</p>
+                                        <p>to augment your internal</p>
+                                        <p>team’s capabilities.</p>
+                                        <div href="#" class="learn-more">LEARN MORE</div>
+                            </a>
+                        </div>
+                        <div class="dropdown-box">
+                            <a><h4 href="#">STRATEGIC PROGRAMS</h4><br>
+                                        <p>Ongoing partnerships designed</p>
+                                        <p>to identify and pursue strategic</p>  
+                                        <p>opportunities and empower growth.</p>
+                                        <div href="#" class="learn-more">LEARN MORE</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a (click)="navigateTo('/')">WORK</a>
+            
+        </div>
     </div>
 
 </header>

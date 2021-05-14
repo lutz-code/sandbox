@@ -2,21 +2,98 @@
 
 header {
     margin: 0;
-    overflow: hidden;
-    display: flex;
-    background-color: $main-color;
+    display: block;
+    font-weight: 500;
+    background-color: white;
     width: 100%;
+    font: freight-sans-pro;
 
     #topnav a {
-        float: left;
+        float: right;
         text-align: center;
-        font-size: 25px;
-        padding: 14px 16px;
+        font-size: 17px;
+        letter-spacing: 0.10em;
+        padding: 38px 22px;
         color: black;
         
         &:hover {
-            color: $main-color;
-            background-color: $white;
+            color: rgb(226,133,44);
+
         }
 }
 }
+.navbar {
+    overflow: visible;
+    position: relative;
+
+    
+}
+.nav-image {
+    display: block;
+    background-image: url(SaltedStone-logo.svg);
+    float: left;
+    margin-left: 5px;
+    height: auto;
+    width: 80px;
+        
+}
+#image {
+    
+    height: 100px;
+}
+.dropdown {
+    overflow: visible;
+    z-index: 3;
+    color: white !important;
+    
+}
+.dropbtn:hover {
+    background-color: rgb(21,30,40);
+
+    }
+.dropdown-content {
+    position: absolute;
+    display: none;
+    align-items: flex-start;
+    margin-left: 30%;
+    margin-top: 10vh;
+    background-color: rgb(21,30,40);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+        .dropdown-box {
+            width: 900px;
+
+            h4 {
+                color: white;
+                text-align: left;
+            }
+            p {
+                font-size: 13px;
+                color: white;
+                text-align: left;
+                letter-spacing: .08em;
+                
+            }
+            .learn-more {
+                color: white;
+                text-align: left;
+            }
+            &:hover {
+                color: rgb(226,133,44);
+            }
+        }
+    
+  }
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: inline-block;
+    border: solid rgb(21,30,40) 5px;
+  }
