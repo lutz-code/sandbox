@@ -15,6 +15,9 @@ header {
         letter-spacing: 0.10em;
         padding: 38px 22px;
         color: black;
+        text-decoration: none;
+        transition: color 200ms;
+
         
         &:hover {
             color: rgb(226,133,44);
@@ -57,42 +60,67 @@ header {
     position: absolute;
     display: none;
     align-items: flex-start;
-    margin-left: 30%;
-    margin-top: 10vh;
+    margin-left: 41vh;
+    margin-top: 13vh;
     background-color: rgb(21,30,40);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     column-count: 3;
+    column-gap: 0px;
     border: solid rgb(21,30,40) 18px;
 
         #mid-box {
             border-left: 2px rgb(53, 58, 75) solid;
             border-right: 2px rgb(53, 58, 75) solid;
+            margin-right: 0px;
+            margin-left: 0px;
         }
         .dropdown-box {
             width: 300px;
-            height: 350px;
+            height: 340px;
+            margin: 0px;
+            transition: background-color 200ms;
+            &:hover {
+                background-color: rgb(226,133,44);
+            }
 
-            
+            svg {
+                fill:rgb(226,133,44);
+                margin-left: 20px;
+                margin-top: 15px;
+                &:hover {
+                    fill:black;
+                }
+            }
+            img {
+                width: 70px;
+                height: 70px;
+                padding-top: 15px;
+                padding-left: 15px;
+            }
             h4 {
+                font-size: 16px;
                 color: white;
                 text-align: left;
             }
             p {
-                font-size: 13px;
+                font-weight: 200;
+                font-size: 14px;
                 color: white;
                 text-align: left;
                 letter-spacing: .08em;
+                line-height: 1em;
                 
             }
             .learn-more {
+                font-size: 14px;
+                bottom: 10px;
                 color: white;
                 text-align: left;
+                margin-top: 25px;
             }
-            &:hover {
-                color: rgb(226,133,44);
-            }
+            
         }
     
   }
